@@ -1,0 +1,45 @@
+[nation_aetherian]
+
+name=_("Aetherian")
+plural=_("?plural:Aetherians")
+groups="Ancient", "Erath", "Extended"
+legend=_("The Aetherians are a people of extremes. Whether a force of extreme good or evil,
+they never walk the middle line.
+\n* Can rapture grow regardless of government. City size requirement for rapture growth is 1.
+With both factors combined, any city can Rapture Grow regardless of size or government.
+")
+
+
+leaders = {
+ "name",                        "sex"
+ "Feng, King Of Light",         "Male"
+ "Talynn, Queen Of Darkness",   "Female"
+}
+
+ruler_titles = {
+ "government",      "male_title",           "female_title"
+ "Anarchy",         _("Chief %s"),      _("?female:Chief %s")
+ "Despotism",       _("King %s"),         _("Queen %s")
+ "Fundamentalism",  _("High-Priest %s"),         _("?female:High-Priestess %s")
+ "Republic",        _("Champion %s"), _("Champion %s")
+}
+
+flag="england"
+flag_alt = "united_kingdom"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+civilwar_nations = "skyfolk", "wasteraider"
+
+trait_expansionist = 75
+trait_trader       = 50
+trait_aggressive   = 50
+
+cities =
+ "Omnor",
+ "Aerin",
+ "Terra",
+ "Aquae",
+ "Pyror"

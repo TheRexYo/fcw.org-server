@@ -1,0 +1,45 @@
+[nation_imperian]
+
+name=_("Imperian")
+plural=_("?plural:Imperians")
+groups="Ancient", "Medieval", "Early Modern", "Erath", "Core"
+legend=_("The Imperians are an old people. Ever since the Neph empire collapsed, they
+ vowed to take back the rightful glory of their predecessors, even if it took
+ them an eternity.
+\n* Citizens do not get unhappy in a larger empire.
+\n* Maximum city size is increased by 2.
+")
+
+leaders = {
+ "name",                        "sex"
+ "Danu, God-Emperor",           "Male"
+}
+
+ruler_titles = {
+ "government",      "male_title",           "female_title"
+ "Anarchy",         _("Chief %s"),      _("?female:Chief %s")
+ "Despotism",       _("King %s"),         _("Queen %s")
+ "Fundamentalism",  _("High-Priest %s"),         _("?female:High-Priestess %s")
+ "Republic",        _("Champion %s"), _("Champion %s")
+}
+
+flag="england"
+flag_alt = "united_kingdom"
+style = "European"
+
+init_techs=""
+init_buildings=""
+init_units=""
+init_government="Despotism"
+civilwar_nations = ""
+
+trait_expansionist = 100
+trait_trader       = 25
+trait_aggressive   = 25
+
+cities =
+ "Imperia",
+ "Grandeur",
+ "Finalis",
+ "Devonfort",
+ "Adracor"
